@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>חדש: ריקודי בטן בשכניה, חמישי בבוקר</title>
-<meta name="description" content="חדש בשכניה: חוג ריקודי בטן בבוקר עם נטשה. שעה של מוזיקה, תנועה וחיוך בקבוצה קטנה וחמה, בלי צורך בניסיון.">
+<meta name="description" content="חדש בשכניה: חוג ריקודי בטן בבוקר עם נטשה. ריקוד, מוזיקה, שמחה ואנרגיות טובות, בקבוצה קטנה ואינטימית, בלי צורך בניסיון.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="he_IL">
 <meta property="og:title" content="חדש: ריקודי בטן בשכניה, חמישי בבוקר">
-<meta property="og:description" content="שעה של מוזיקה, תנועה וחיוך בקבוצה קטנה וחמה. בלי צורך בניסיון.">
+<meta property="og:description" content="ריקוד, מוזיקה, שמחה ואנרגיות טובות. קבוצה קטנה ואינטימית, בלי צורך בניסיון.">
 <meta property="og:image" content="https://natashashteinberg.github.io/shechania-morning-class/assets/poster.jpg">
-<meta name="theme-color" content="#f6dfe9">
+<meta name="theme-color" content="#fbe6df">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -19,11 +19,10 @@
     color-scheme: light;
     --bg:#faf7f0;                         /* רקע כללי: שנהב עדין, לא ורוד */
     --pink:#f6d3d8; --blush:#fbe3dc;
-    --lav:#eee8f7; --peach:#fdeadc; --mint:#e3f2ef; --sky:#e6eef8;   /* פסי רקע צבעוניים וחלשים */
+    --lav:#f0eaf8; --peach:#fdeee2; --sky:#e9f0f8;   /* פסי רקע צבעוניים וחלשים */
     --card:#fff; --line:#eadfd2;
     --ink:#3a2f33; --navy:#1f3a73; --berry:#b0366a; --berry-d:#8f2756;
     --orange:#e98a57; --purple:#7a58a8; --teal:#3b9a97; --gold:#c9a45c;
-    --lace: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23b0366a' stroke-width='1' opacity='.11'%3E%3Crect x='18' y='18' width='36' height='36'/%3E%3Crect x='18' y='18' width='36' height='36' transform='rotate(45 36 36)'/%3E%3Ccircle cx='36' cy='36' r='6'/%3E%3C/g%3E%3C/svg%3E");
   }
   * { box-sizing:border-box; }
   html { scroll-behavior:smooth; }
@@ -32,40 +31,40 @@
   svg.i { width:26px; height:26px; fill:none; stroke:currentColor; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round; flex:none; }
 
   /* ---------- כותרת ראשית ---------- */
-  header.hero { background:linear-gradient(165deg,#fbe2d8 0%,#f7dce8 48%,#e9e0f5 100%); position:relative; overflow:hidden; padding:16px 0 70px; text-align:center; }
-  header.hero::before { content:""; position:absolute; inset:0; background:var(--lace); background-size:72px 72px; }
-  header.hero::after { content:""; position:absolute; inset-inline:0; bottom:0; height:22px; background:radial-gradient(circle at 10px 6px, var(--gold) 5px, transparent 5.5px) 0 0/20px 22px repeat-x; opacity:.85; }
-  .blob { position:absolute; border-radius:50%; filter:blur(2px); opacity:.55; }
-  .blob.a { width:190px; height:190px; background:#f9c9b8; top:-60px; inset-inline-start:-50px; }
-  .blob.b { width:150px; height:150px; background:#d9c8f0; top:150px; inset-inline-end:-60px; }
-  header.hero .wrap { position:relative; }
+  header.hero { background:linear-gradient(170deg,#fde9e1 0%,#fbe3ea 55%,#f0e7f8 100%); position:relative; padding:16px 0 78px; text-align:center; }
+  header.hero::after { content:""; position:absolute; inset-inline:0; bottom:-1px; height:46px; background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60' preserveAspectRatio='none'%3E%3Cpath d='M0,28 C200,66 400,0 600,30 C800,60 1000,2 1200,28 L1200,60 L0,60 Z' fill='%23faf7f0'/%3E%3C/svg%3E") center bottom/100% 100% no-repeat; }
   .logo { display:block; width:170px; height:auto; margin:0 auto 2px; }
-  .new { display:inline-flex; align-items:center; gap:6px; background:linear-gradient(90deg,var(--berry),var(--orange)); color:#fff; font-weight:800; font-size:1rem; padding:5px 16px; border-radius:99px; letter-spacing:.3px; }
+  .new { display:inline-flex; align-items:center; gap:6px; background:linear-gradient(90deg,var(--berry),var(--orange)); color:#fff; font-weight:800; font-size:1rem; padding:5px 16px; border-radius:99px; }
   .new svg.i { width:18px; height:18px; }
-  h1 { color:var(--navy); font-size:2.3rem; line-height:1.15; margin:10px 0 10px; font-weight:800; }
-  .when { display:inline-flex; align-items:center; gap:8px; background:#fff; color:var(--berry-d); font-weight:700; padding:6px 18px; border-radius:99px; margin-bottom:16px; box-shadow:0 2px 0 rgba(176,54,106,.18); }
-  .when svg.i { width:20px; height:20px; color:var(--orange); }
-  .sub { font-size:1.1rem; margin:0 auto 12px; max-width:28em; }
-  .sub.first { font-size:1.18rem; font-weight:500; color:#2c2430; }
-  mark { background:linear-gradient(transparent 56%, var(--pink) 56%); color:inherit; padding:0 2px; font-weight:700; }
-  .btn { display:inline-block; background:linear-gradient(180deg,#c2457b,var(--berry)); color:#fff; text-decoration:none; font-weight:700; font-size:1.12rem; border:0; border-radius:99px; padding:14px 34px; cursor:pointer; font-family:inherit; box-shadow:0 4px 0 var(--berry-d), 0 8px 16px rgba(176,54,106,.25); margin-top:6px; }
+  h1 { color:var(--navy); font-size:2.3rem; line-height:1.15; margin:10px 0 12px; font-weight:800; }
+  .pills { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-bottom:18px; }
+  .pill { display:inline-flex; align-items:center; gap:8px; background:#fff; color:var(--berry-d); font-weight:700; font-size:.98rem; padding:6px 16px; border-radius:99px; box-shadow:0 2px 0 rgba(176,54,106,.16); }
+  .pill svg.i { width:19px; height:19px; color:var(--orange); }
+  .sub { font-size:1.1rem; margin:0 auto 12px; max-width:27em; }
+  .sub.first { font-size:1.2rem; font-weight:500; color:#2c2430; }
+  .big { display:inline-block; font-size:1.3rem; font-weight:800; color:var(--berry-d); background:linear-gradient(transparent 62%, rgba(246,211,216,.95) 62%); padding:0 4px; }
+  .soft { font-weight:700; color:var(--navy); text-decoration:underline dotted var(--berry) 2px; text-underline-offset:4px; }
+  .btn { display:inline-block; background:linear-gradient(180deg,#c2457b,var(--berry)); color:#fff; text-decoration:none; font-weight:700; font-size:1.12rem; border:0; border-radius:99px; padding:14px 30px; cursor:pointer; font-family:inherit; box-shadow:0 4px 0 var(--berry-d), 0 8px 16px rgba(176,54,106,.25); margin-top:6px; }
   .btn:hover, .btn:focus-visible { background:var(--berry-d); }
   .btn.wa { background:#3f8f64; box-shadow:0 4px 0 #2f7050; }
   .btn:focus-visible, input:focus-visible, select:focus-visible { outline:3px solid var(--gold); outline-offset:2px; }
 
-  .video { margin:-50px auto 0; max-width:480px; border-radius:22px; overflow:hidden; border:5px solid #fff; box-shadow:0 10px 26px rgba(80,40,80,.25); background:#000; position:relative; z-index:2; }
+  .video { margin:-54px auto 0; max-width:480px; border-radius:22px; overflow:hidden; border:5px solid #fff; box-shadow:0 10px 26px rgba(80,40,80,.25); background:#000; position:relative; z-index:2; }
   .video video { display:block; width:100%; height:auto; aspect-ratio:1/1; }
 
   /* ---------- אזורים וכותרות ---------- */
   section { padding:34px 0 8px; }
-  .band { margin-top:34px; padding:34px 0 38px; position:relative; }
-  .band.lav { background:var(--lav); } .band.peach { background:var(--peach); } .band.mint { background:var(--mint); } .band.sky { background:var(--sky); }
-  .band section { padding-top:0; }
-  .coins { height:16px; background:radial-gradient(circle at 8px 6px, var(--gold) 4px, transparent 4.5px) 0 0/16px 16px repeat-x; opacity:.8; margin:0; }
+  .band { padding:36px 0 40px; }
+  .band.lav { background:var(--lav); } .band.peach { background:var(--peach); } .band.sky { background:var(--sky); }
+  .band section { padding:0; }
+  .divider { display:flex; align-items:center; justify-content:center; gap:14px; max-width:320px; margin:30px auto 0; }
+  .divider::before, .divider::after { content:""; flex:1; height:1px; background:linear-gradient(90deg, transparent, var(--gold)); }
+  .divider::after { transform:scaleX(-1); }
+  .divider svg { width:46px; height:14px; fill:var(--gold); }
   .ribbon { text-align:center; margin:0 0 20px; }
-  .ribbon h2 { display:inline-flex; align-items:center; gap:10px; margin:0; background:linear-gradient(90deg,var(--pink),var(--blush)); color:var(--navy); font-size:1.32rem; font-weight:800; padding:8px 24px; border-radius:99px; box-shadow:0 2px 0 rgba(176,54,106,.15); }
+  .ribbon h2 { display:inline-flex; align-items:center; gap:10px; margin:0; background:linear-gradient(90deg,var(--pink),var(--blush)); color:var(--navy); font-size:1.28rem; font-weight:800; padding:8px 24px; border-radius:99px; box-shadow:0 2px 0 rgba(176,54,106,.15); line-height:1.35; }
   .ribbon h2 svg.i { width:22px; height:22px; color:var(--berry); }
-  .lead { text-align:center; margin:-8px auto 20px; max-width:28em; font-size:1.05rem; }
+  .lead { text-align:center; margin:-6px auto 20px; max-width:28em; font-size:1.05rem; }
 
   /* ---------- יתרונות ---------- */
   .tiles { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
@@ -81,46 +80,39 @@
   .callout .ic { width:48px; height:48px; border-radius:50%; background:var(--peach); color:var(--orange); display:flex; align-items:center; justify-content:center; flex:none; }
   .callout b { display:block; color:var(--navy); font-size:1.06rem; }
 
-  /* ---------- תמונות ---------- */
+  /* ---------- נעים להכיר ---------- */
   .arch { border-radius:999px 999px 18px 18px; overflow:hidden; border:4px solid #fff; box-shadow:0 0 0 2px var(--gold), 0 8px 18px rgba(60,40,70,.2); background:#ddd; }
   .arch img { display:block; width:100%; height:100%; object-fit:cover; }
-  .about { display:grid; grid-template-columns:150px 1fr; gap:16px; align-items:center; }
-  .about .arch { aspect-ratio:3/4; }
-  .chips { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 0; padding:0; list-style:none; }
-  .chips li { background:#fff; border:1px solid var(--line); color:var(--navy); font-weight:700; font-size:.88rem; padding:4px 12px; border-radius:99px; display:flex; align-items:center; gap:6px; }
-  .chips svg.i { width:16px; height:16px; color:var(--berry); }
-  .gal { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
-  .gal figure { margin:0; border-radius:16px; overflow:hidden; border:3px solid #fff; box-shadow:0 5px 14px rgba(60,40,70,.18); background:#ddd; }
-  .gal img { display:block; width:100%; height:100%; object-fit:cover; }
-  .gal .w { grid-column:span 2; aspect-ratio:16/9; } .gal .s { aspect-ratio:1/1; }
-  .stage { display:grid; grid-template-columns:1fr 1fr; gap:12px; align-items:end; }
-  .stage figure { margin:0; position:relative; border-radius:18px; overflow:hidden; border:4px solid #fff; box-shadow:0 6px 16px rgba(60,40,70,.2); background:#ddd; }
-  .stage img { display:block; width:100%; height:100%; object-fit:cover; }
-  .stage .p1 { aspect-ratio:3/4; } .stage .p2 { aspect-ratio:3/4; }
-  .cap { text-align:center; font-weight:500; margin:10px 0 0; color:var(--navy); }
+  .about { text-align:center; }
+  .about .arch { width:210px; aspect-ratio:3/4; margin:0 auto 18px; }
+  .about p { margin:0 auto; max-width:30em; font-size:1.05rem; }
+  .about b { color:var(--berry-d); }
 
-  /* ---------- פרטים והצעה ---------- */
+  /* ---------- מצגת ---------- */
+  .show { position:relative; aspect-ratio:4/3; border-radius:20px; overflow:hidden; border:4px solid #fff; box-shadow:0 8px 20px rgba(60,40,70,.22); background:#ddd; pointer-events:none; user-select:none; }
+  .show img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity 1.1s ease; }
+  .show img.on { opacity:1; }
+
+  /* ---------- מידע והצעה ---------- */
   .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:14px 18px; }
   ul.facts { list-style:none; margin:0; padding:0; }
   ul.facts li { display:flex; gap:12px; align-items:flex-start; padding:11px 0; border-bottom:1px solid var(--line); }
   ul.facts li:last-child { border-bottom:0; }
   ul.facts svg.i { color:var(--berry); margin-top:2px; }
   ul.facts b { color:var(--navy); font-weight:700; }
-  .offer { display:flex; gap:14px; align-items:flex-start; margin-bottom:12px; background:var(--card); border:1px solid #f0d8c6; border-radius:18px; padding:16px 18px; }
+  ul.facts li.key { background:linear-gradient(90deg, transparent, rgba(246,211,216,.55)); margin:0 -18px; padding-inline:18px; border-radius:12px; }
+  .offer { display:flex; gap:14px; align-items:flex-start; margin-bottom:12px; background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px 18px; }
   .offer .ic { width:52px; height:52px; border-radius:50%; background:var(--pink); color:var(--berry-d); display:flex; align-items:center; justify-content:center; flex:none; }
   .offer b.t { display:block; color:var(--navy); font-size:1.12rem; }
-  .offer.hl { background:#fff8f2; border:2px solid var(--orange); }
-  .seats { text-align:center; background:#fff; border-radius:20px; padding:16px 12px 14px; border:2px dashed var(--berry); margin-top:14px; }
-  .seats b { display:block; color:var(--berry-d); font-size:1.15rem; margin-bottom:8px; }
-  .dots { display:flex; justify-content:center; gap:7px; flex-wrap:wrap; }
-  .dots i { width:22px; height:22px; border-radius:50%; border:2px solid var(--gold); background:#fff; display:block; }
-  .dots i.on { background:var(--berry); border-color:var(--berry); }
-  .seats small { display:block; margin-top:8px; font-size:.88rem; opacity:.85; }
+  .offer.together { border:2px solid var(--berry); background:linear-gradient(180deg,#fff,#fff6f8); box-shadow:0 6px 16px rgba(176,54,106,.14); }
+  .seats { text-align:center; background:#fff; border-radius:20px; padding:14px 12px; border:2px dashed var(--berry); margin-top:14px; }
+  .seats b { display:block; color:var(--berry-d); font-size:1.18rem; }
+  .seats small { display:block; margin-top:4px; font-size:.9rem; opacity:.85; }
 
   blockquote { margin:0; } blockquote p { margin:0 0 6px; } blockquote cite { font-style:normal; font-size:.9rem; opacity:.8; }
 
   /* ---------- טופס ---------- */
-  form { background-color:var(--card); background-image:linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.97)), var(--lace); background-size:auto, 72px 72px; border:1px solid var(--line); border-top:6px solid var(--berry); border-radius:20px; padding:18px 16px 22px; box-shadow:0 8px 22px rgba(80,40,80,.12); }
+  form { background:var(--card); border:1px solid var(--line); border-top:6px solid var(--berry); border-radius:20px; padding:18px 16px 22px; box-shadow:0 8px 22px rgba(80,40,80,.12); }
   label { display:block; font-weight:500; margin:12px 0 4px; }
   input[type=text], input[type=tel], select { width:100%; font:inherit; font-size:1rem; padding:12px 14px; border:1px solid #d9cfc0; border-radius:12px; background:#fff; color:var(--ink); }
   .consent { display:flex; gap:10px; align-items:flex-start; margin:16px 0; font-size:.92rem; }
@@ -131,27 +123,29 @@
   .done h2 { color:var(--navy); margin-top:0; }
   .alt { text-align:center; margin:18px 0 0; font-size:.95rem; }
   .alt a { color:var(--berry-d); font-weight:700; }
-  footer { text-align:center; padding:28px 16px 96px; font-size:.85rem; color:#7a6e6e; }
+  footer { text-align:center; padding:28px 16px 100px; font-size:.85rem; color:#7a6e6e; }
   .sticky { position:fixed; bottom:0; inset-inline:0; padding:10px 16px calc(10px + env(safe-area-inset-bottom)); background:rgba(250,247,240,.97); border-top:1px solid var(--line); z-index:5; text-align:center; transform:translateY(110%); transition:transform .25s; }
   .sticky.show { transform:none; }
   .sticky .btn { width:100%; max-width:640px; margin:0; }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } .sticky { transition:none; } }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } .sticky { transition:none; } .show img { transition:none; } }
 </style>
 </head>
 <body>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="i-calendar-check" viewBox="0 0 24 24"><path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /> <path d="m9 16 2 2 4-4" /></symbol><symbol id="i-camera" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" /> <circle cx="12" cy="13" r="3" /></symbol><symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /> <polyline points="12 6 12 12 16 14" /></symbol><symbol id="i-crown" viewBox="0 0 24 24"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z" /> <path d="M5 21h14" /></symbol><symbol id="i-dumbbell" viewBox="0 0 24 24"><path d="M14.4 14.4 9.6 9.6" /> <path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z" /> <path d="m21.5 21.5-1.4-1.4" /> <path d="M3.9 3.9 2.5 2.5" /> <path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z" /></symbol><symbol id="i-footprints" viewBox="0 0 24 24"><path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z" /> <path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z" /> <path d="M16 17h4" /> <path d="M4 13h4" /></symbol><symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1" /> <path d="M12 8v13" /> <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7" /> <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5" /></symbol><symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></symbol><symbol id="i-heart-handshake" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /> <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" /> <path d="m18 15-2-2" /> <path d="m15 18-2-2" /></symbol><symbol id="i-heart-pulse" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /> <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" /></symbol><symbol id="i-house" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /> <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></symbol><symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></symbol><symbol id="i-person-standing" viewBox="0 0 24 24"><circle cx="12" cy="5" r="1" /> <path d="m9 20 3-6 3 6" /> <path d="m6 8 6 2 6-2" /> <path d="M12 10v4" /></symbol><symbol id="i-shirt" viewBox="0 0 24 24"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" /></symbol><symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /> <path d="M20 3v4" /> <path d="M22 5h-4" /> <path d="M4 17v2" /> <path d="M5 18H3" /></symbol><symbol id="i-star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" /> <path d="M12 2v2" /> <path d="M12 20v2" /> <path d="m4.93 4.93 1.41 1.41" /> <path d="m17.66 17.66 1.41 1.41" /> <path d="M2 12h2" /> <path d="M20 12h2" /> <path d="m6.34 17.66-1.41 1.41" /> <path d="m19.07 4.93-1.41 1.41" /></symbol><symbol id="i-sunrise" viewBox="0 0 24 24"><path d="M12 2v8" /> <path d="m4.93 10.93 1.41 1.41" /> <path d="M2 18h2" /> <path d="M20 18h2" /> <path d="m19.07 10.93-1.41 1.41" /> <path d="M22 22H2" /> <path d="m8 6 4-4 4 4" /> <path d="M16 18a4 4 0 0 0-8 0" /></symbol><symbol id="i-ticket" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" /> <path d="M13 5v2" /> <path d="M13 17v2" /> <path d="M13 11v2" /></symbol><symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <circle cx="9" cy="7" r="4" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <path d="M16 3.13a4 4 0 0 1 0 7.75" /></symbol><symbol id="i-wind" viewBox="0 0 24 24"><path d="M12.8 19.6A2 2 0 1 0 14 16H2" /> <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2" /> <path d="M9.8 4.4A2 2 0 1 1 11 8H2" /></symbol></defs></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="i-calendar-check" viewBox="0 0 24 24"><path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /> <path d="m9 16 2 2 4-4" /></symbol><symbol id="i-camera" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" /> <circle cx="12" cy="13" r="3" /></symbol><symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /> <polyline points="12 6 12 12 16 14" /></symbol><symbol id="i-crown" viewBox="0 0 24 24"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z" /> <path d="M5 21h14" /></symbol><symbol id="i-dumbbell" viewBox="0 0 24 24"><path d="M14.4 14.4 9.6 9.6" /> <path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z" /> <path d="m21.5 21.5-1.4-1.4" /> <path d="M3.9 3.9 2.5 2.5" /> <path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z" /></symbol><symbol id="i-footprints" viewBox="0 0 24 24"><path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z" /> <path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z" /> <path d="M16 17h4" /> <path d="M4 13h4" /></symbol><symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1" /> <path d="M12 8v13" /> <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7" /> <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5" /></symbol><symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></symbol><symbol id="i-heart-handshake" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /> <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" /> <path d="m18 15-2-2" /> <path d="m15 18-2-2" /></symbol><symbol id="i-heart-pulse" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /> <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" /></symbol><symbol id="i-house" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /> <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></symbol><symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></symbol><symbol id="i-person-standing" viewBox="0 0 24 24"><circle cx="12" cy="5" r="1" /> <path d="m9 20 3-6 3 6" /> <path d="m6 8 6 2 6-2" /> <path d="M12 10v4" /></symbol><symbol id="i-shirt" viewBox="0 0 24 24"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" /></symbol><symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /> <path d="M20 3v4" /> <path d="M22 5h-4" /> <path d="M4 17v2" /> <path d="M5 18H3" /></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" /> <path d="M12 2v2" /> <path d="M12 20v2" /> <path d="m4.93 4.93 1.41 1.41" /> <path d="m17.66 17.66 1.41 1.41" /> <path d="M2 12h2" /> <path d="M20 12h2" /> <path d="m6.34 17.66-1.41 1.41" /> <path d="m19.07 4.93-1.41 1.41" /></symbol><symbol id="i-sunrise" viewBox="0 0 24 24"><path d="M12 2v8" /> <path d="m4.93 10.93 1.41 1.41" /> <path d="M2 18h2" /> <path d="M20 18h2" /> <path d="m19.07 10.93-1.41 1.41" /> <path d="M22 22H2" /> <path d="m8 6 4-4 4 4" /> <path d="M16 18a4 4 0 0 0-8 0" /></symbol><symbol id="i-ticket" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" /> <path d="M13 5v2" /> <path d="M13 17v2" /> <path d="M13 11v2" /></symbol><symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <circle cx="9" cy="7" r="4" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <path d="M16 3.13a4 4 0 0 1 0 7.75" /></symbol><symbol id="i-wind" viewBox="0 0 24 24"><path d="M12.8 19.6A2 2 0 1 0 14 16H2" /> <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2" /> <path d="M9.8 4.4A2 2 0 1 1 11 8H2" /></symbol></defs></svg>
 
 <header class="hero">
-  <i class="blob a"></i><i class="blob b"></i>
   <div class="wrap">
     <img class="logo" src="assets/logo.png" alt="לוגו" width="170" height="95">
     <div><span class="new"><svg class="i"><use href="#i-sparkles"/></svg>חדש</span></div>
     <h1>חדש: ריקודי בטן בשכניה</h1>
-    <span class="when"><svg class="i"><use href="#i-sunrise"/></svg>חמישי בבוקר · 10:00-11:00</span>
-    <p class="sub first">שלום, אני נטשה, ואני מזמינה אותך להתחיל את יום חמישי בשעה של מוזיקה, תנועה וחיוך.</p>
-    <p class="sub">אצלנו בלב שכניה, בקבוצה קטנה וחמה. <mark>לא צריך ניסיון</mark>, לא צריך להיות רקדנית, ולא צריך חגורת מטבעות (אפשר להגיע גם בלי). מספיק שתבואי כמו שאת.</p>
-    <a class="btn" href="#join" id="heroCta">אני רוצה לנסות</a>
+    <div class="pills">
+      <span class="pill"><svg class="i"><use href="#i-sunrise"/></svg>חמישי בבוקר · 10:00-11:00</span>
+      <span class="pill"><svg class="i"><use href="#i-users"/></svg>קבוצה קטנה ואינטימית</span>
+    </div>
+    <p class="sub first">שלום, אני נטשה, מזמינה אותך להתחיל את יום חמישי עם ריקוד, מוזיקה, שמחה ואנרגיות טובות.</p>
+    <p class="sub">ריקודי בטן מתאימים לכל אישה, בכל גיל ומשקל.<br>לא צריך ניסיון בריקוד - <span class="big">תבואי בדיוק כמו שאת!</span></p>
+    <a class="btn" href="#join" id="heroCta">מתחשק לך לנסות? לחצי כאן!</a>
   </div>
 </header>
 
@@ -164,21 +158,22 @@
 
   <section aria-labelledby="giveH">
     <div class="ribbon"><h2 id="giveH"><svg class="i"><use href="#i-sparkles"/></svg>למה כדאי לרקוד ריקודי בטן?</h2></div>
-    <p class="lead">כי זו אחת הדרכים הנעימות ביותר לפנק את עצמך: תנועה בריאה, עדינה לגוף ומלאה בשמחה.</p>
+    <p class="lead">כי זו דרך מצוינת להעניק לעצמך מתנה: יכולת לנוע ולהזיז את הגוף באופן משוחרר וזורם, להיפתח לקצב ולשמח את הנפש.</p>
     <div class="tiles">
-      <div class="tile c1"><div class="ic"><svg class="i"><use href="#i-heart-pulse"/></svg></div><b>פעילות בריאה</b><span>תנועה מומלצת לנשים בכל גיל, עדינה לגוף ומלאה בהנאה</span></div>
+      <div class="tile c1"><div class="ic"><svg class="i"><use href="#i-heart-pulse"/></svg></div><b>פעילות בריאה</b><span>תגלי תנועה בריאה, עדינה לגוף ומתאימה לכל גיל</span></div>
       <div class="tile c2"><div class="ic"><svg class="i"><use href="#i-person-standing"/></svg></div><b>יציבה וגב</b><span>תשפרי את היציבה ותרגישי את הגב נפתח</span></div>
       <div class="tile c3"><div class="ic"><svg class="i"><use href="#i-dumbbell"/></svg></div><b>גוף חזק יותר</b><span>תחזקי את הליבה, הגב והרגליים</span></div>
       <div class="tile c4"><div class="ic"><svg class="i"><use href="#i-crown"/></svg></div><b>ביטחון עצמי</b><span>תרגישי נשית, בטוחה ויפה בגוף שלך</span></div>
       <div class="tile c1"><div class="ic"><svg class="i"><use href="#i-wind"/></svg></div><b>שחרור</b><span>תשחררי מתחים ואת העומס של השבוע</span></div>
-      <div class="tile c2"><div class="ic"><svg class="i"><use href="#i-sun"/></svg></div><b>שמחה ואנרגיות טובות</b><span>תקבלי חיוך ואנרגיה לכל היום</span></div>
-      <div class="tile c3"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><b>אחוות נשים</b><span>תכירי נשים מהסביבה ותרגישי חלק מקבוצה</span></div>
+      <div class="tile c2"><div class="ic"><svg class="i"><use href="#i-sun"/></svg></div><b>שמחה ואנרגיות טובות</b><span>תחווי שמחה ותצברי אנרגיה טובה לכל היום</span></div>
+      <div class="tile c3"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><b>אחוות נשים</b><span>תכירי נשים מהסביבה ותהני מחברה נעימה</span></div>
       <div class="tile c4"><div class="ic"><svg class="i"><use href="#i-footprints"/></svg></div><b>שיפור הריקוד</b><span>תלמדי צעדים, קצב וביטוי, שיעור אחרי שיעור</span></div>
     </div>
   </section>
+  <div class="divider" aria-hidden="true"><svg viewBox="0 0 46 14"><path d="M23 0l4 7-4 7-4-7zM8 3.5l3 3.5-3 3.5-3-3.5zM38 3.5l3 3.5-3 3.5-3-3.5z"/></svg></div>
 </div>
 
-<div class="band peach" style="margin-top:38px">
+<div class="band peach" style="margin-top:34px">
   <div class="wrap">
     <section aria-label="למה בוקר">
       <div class="callout"><div class="ic"><svg class="i"><use href="#i-sunrise"/></svg></div><div><b>שעה שהיא רק שלך</b>אחרי שהבית התארגן ולפני שהיום מתחיל לרוץ. בלי עייפות של סוף יום, בלי למהר לשום מקום.</div></div>
@@ -187,68 +182,61 @@
     </section>
   </div>
 </div>
-<div class="coins" aria-hidden="true"></div>
 
-<div class="band lav" style="margin-top:0">
+<div class="band lav">
   <div class="wrap">
     <section aria-labelledby="aboutH">
       <div class="ribbon"><h2 id="aboutH"><svg class="i"><use href="#i-heart"/></svg>נעים להכיר, אני נטשה</h2></div>
       <div class="about">
         <div class="arch"><img src="assets/photo-spin.jpg" alt="נטשה רוקדת בסטודיו" loading="lazy"></div>
-        <div>
-          <p style="margin:0">אני מלמדת ריקודי בטן <b>מעל 20 שנה</b>, ומנהלת את סטודיו עאישה בכרמיאל. אצלי אף אחת לא נשארת מאחור: מתחילות מהצעד הראשון, בקצב שלך, באווירה חמה ובקבוצה קטנה.</p>
-          <ul class="chips"><li><svg class="i"><use href="#i-star"/></svg>20+ שנות ניסיון</li><li><svg class="i"><use href="#i-users"/></svg>קבוצה קטנה</li><li><svg class="i"><use href="#i-heart"/></svg>כל הגילאים</li></ul>
-        </div>
+        <p>אני מלמדת ריקודי בטן <b>מעל 20 שנה</b>, ומנהלת את סטודיו עאישה בכרמיאל. אצלי אף אחת לא נשארת מאחור: מתחילות מהצעד הראשון, בקצב שלך, באווירה חמה.</p>
       </div>
     </section>
   </div>
 </div>
 
-<div class="band sky" style="margin-top:0">
+<div class="band sky">
   <div class="wrap">
     <section aria-labelledby="galH">
       <div class="ribbon"><h2 id="galH"><svg class="i"><use href="#i-camera"/></svg>ככה זה נראה אצלנו</h2></div>
-      <div class="gal">
-        <figure class="w"><img src="assets/g-party.jpg" alt="הרקדניות של הסטודיו יחד" loading="lazy"></figure>
-        <figure class="s"><img src="assets/g-lead.jpg" alt="נטשה מובילה ריקוד בשיעור" loading="lazy"></figure>
-        <figure class="s"><img src="assets/g-skirts.jpg" alt="תלמידות בחצאיות צבעוניות" loading="lazy"></figure>
-        <figure class="w"><img src="assets/g-colors.jpg" alt="קבוצת תלמידות בצעיפים" loading="lazy"></figure>
-        <figure class="s"><img src="assets/g-studio.jpg" alt="שיעור בסטודיו" loading="lazy"></figure>
-        <figure class="s"><img src="assets/g-trio.jpg" alt="שלוש רקדניות בתנוחה" loading="lazy"></figure>
+      <div class="show" id="show" role="img" aria-label="תמונות מהשיעורים, מהמסיבות ומההופעות של הסטודיו">
+        <img class="on" src="assets/g-party.jpg" alt="">
+        <img src="assets/g-lead.jpg" alt="" loading="lazy">
+        <img src="assets/g-skirts.jpg" alt="" loading="lazy">
+        <img src="assets/dancer-red.jpg" alt="" loading="lazy">
+        <img src="assets/g-colors.jpg" alt="" loading="lazy">
+        <img src="assets/perf-festival.jpg" alt="" loading="lazy">
+        <img src="assets/g-studio.jpg" alt="" loading="lazy">
+        <img src="assets/g-trio.jpg" alt="" loading="lazy">
       </div>
-      <div class="stage" style="margin-top:14px">
-        <figure class="p1"><img src="assets/dancer-red.jpg" alt="נטשה בשיעור" loading="lazy"></figure>
-        <figure class="p2"><img src="assets/perf-festival.jpg" alt="הופעה של הסטודיו באירוע" loading="lazy"></figure>
-      </div>
-      <p class="cap">מהשיעורים, מהמסיבות ומההופעות</p>
     </section>
   </div>
 </div>
 
 <div class="wrap">
   <section aria-labelledby="whenH">
-    <div class="ribbon"><h2 id="whenH"><svg class="i"><use href="#i-calendar-check"/></svg>פרטים מעשיים</h2></div>
+    <div class="ribbon"><h2 id="whenH"><svg class="i"><use href="#i-calendar-check"/></svg>מידע חשוב</h2></div>
     <div class="card">
       <ul class="facts">
+        <li class="key"><svg class="i"><use href="#i-users"/></svg><div><b>קבוצה קטנה ואינטימית:</b> כדי שיהיה מקום לכל אחת, ואפשר יהיה להכיר.</div></li>
         <li><svg class="i"><use href="#i-clock"/></svg><div><b>מתי:</b> בימי חמישי בבוקר, 10:00-11:00</div></li>
         <li><svg class="i"><use href="#i-map-pin"/></svg><div><b>איפה:</b> ברחבה במרכז שכניה. את הוראות ההגעה המדויקות אשלח לך אישית.</div></li>
         <li><svg class="i"><use href="#i-shirt"/></svg><div><b>מה ללבוש:</b> בגדים נוחים שנעים לזוז בהם. חצאית רחבה או צעיף מותניים אם יש, ואם אין, אין שום בעיה.</div></li>
-        <li><svg class="i"><use href="#i-users"/></svg><div><b>עם מי:</b> קבוצה קטנה של עד 10 נשים.</div></li>
       </ul>
     </div>
   </section>
 
   <section aria-labelledby="offerH">
-    <div class="ribbon"><h2 id="offerH"><svg class="i"><use href="#i-gift"/></svg>איך מתחילים</h2></div>
-    <div class="offer hl">
-      <div class="ic"><svg class="i"><use href="#i-ticket"/></svg></div>
-      <div><b class="t">מתחילות בשיעור ניסיון</b>בלי התחייבות לפני השיעור. שיעור הניסיון עולה 60 ₪, ו<mark>הסכום מקוזז מהמנוי החודשי</mark> (230 ₪ לחודש) אם תחליטי להצטרף.</div>
-    </div>
+    <div class="ribbon"><h2 id="offerH"><svg class="i"><use href="#i-gift"/></svg>איך זה עובד</h2></div>
     <div class="offer">
-      <div class="ic"><svg class="i"><use href="#i-heart-handshake"/></svg></div>
-      <div><b class="t">ביחד עדיף</b>באה עם חברה? שתיכן משלמות <mark>30 ₪ לכל שיעור</mark> עד סוף החודש, כולל שיעור הניסיון.</div>
+      <div class="ic"><svg class="i"><use href="#i-ticket"/></svg></div>
+      <div><b class="t">מתחילות בשיעור ניסיון</b>בלי התחייבות לפני השיעור. שיעור הניסיון עולה 60 ₪, והסכום <span class="soft">מקוזז מהמנוי החודשי</span> (230 ₪ לחודש) אם תחליטי להצטרף.</div>
     </div>
-    <div class="seats" id="seats"><b id="seatsTitle"></b><div class="dots" id="dots" aria-hidden="true"></div><small>הקבוצה מוגבלת ל-10 נשים, כדי שיהיה מקום לכל אחת</small></div>
+    <div class="offer together">
+      <div class="ic"><svg class="i"><use href="#i-heart-handshake"/></svg></div>
+      <div><b class="t">ביחד עדיף</b>באה עם חברה? שתיכן משלמות <span class="soft">30 ₪ לכל שיעור</span> עד סוף החודש, כולל שיעור הניסיון.</div>
+    </div>
+    <div class="seats" id="seats"><b id="seatsTitle"></b><small>המקומות מוגבלים, כדי לשמור על קבוצה קטנה ואינטימית</small></div>
   </section>
 
   <section id="testimonials" aria-labelledby="tH" hidden>
@@ -257,7 +245,7 @@
   </section>
 
   <section id="join" aria-labelledby="joinH">
-    <div class="ribbon"><h2 id="joinH"><svg class="i"><use href="#i-sparkles"/></svg>משאירה פרטים, ואני חוזרת אלייך</h2></div>
+    <div class="ribbon"><h2 id="joinH"><svg class="i"><use href="#i-sparkles"/></svg>השאירי פרטים ואני אחזור אלייך</h2></div>
     <form id="leadForm" novalidate>
       <label for="name">שם</label>
       <input type="text" id="name" name="name" autocomplete="given-name" maxlength="60" required>
@@ -300,7 +288,7 @@
 
 <footer>סטודיו עאישה לריקודי בטן, כרמיאל</footer>
 
-<div class="sticky" id="sticky"><a class="btn" href="#join">אני רוצה לנסות</a></div>
+<div class="sticky" id="sticky"><a class="btn" href="#join">מתחשק לך לנסות? לחצי כאן!</a></div>
 
 <script>
 (function () {
@@ -308,14 +296,24 @@
   // === הגדרות ===
   var ENDPOINT = 'REPLACE_WITH_APPS_SCRIPT_URL';   // כתובת ה-Web App של Apps Script
   var SPOTS_LEFT = 4;                              // כמה מקומות נשארו בקבוצה הראשונה (0 = רשימת המתנה)
-  var GROUP_MAX = 10;
   var TESTIMONIALS = [];                           // [{text:'...', name:'ריטה', town:'כורנית'}] מתמלא רק בציטוטים אמיתיים באישור
+  var SLIDE_MS = 3600;
 
   var $ = function (id) { return document.getElementById(id); };
 
-  // מקומות: עיגולים מלאים = תפוסים, ריקים = פנויים
   $('seatsTitle').textContent = SPOTS_LEFT > 0 ? 'נותרו ' + SPOTS_LEFT + ' מקומות בקבוצה הראשונה' : 'הקבוצה מלאה, מצטרפות לרשימת המתנה לקבוצה נוספת';
-  for (var k = 0; k < GROUP_MAX; k++) { var dot = document.createElement('i'); if (k < GROUP_MAX - SPOTS_LEFT) dot.className = 'on'; $('dots').appendChild(dot); }
+
+  // מצגת תמונות: מתחלפת לבד, בלי כפתורים ובלי אפשרות לעצור (למי שביקשה פחות תנועה בהגדרות המכשיר, מוצגת תמונה אחת)
+  var slides = $('show').getElementsByTagName('img');
+  var calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (slides.length > 1 && !calm) {
+    var cur = 0;
+    setInterval(function () {
+      slides[cur].className = '';
+      cur = (cur + 1) % slides.length;
+      slides[cur].className = 'on';
+    }, SLIDE_MS);
+  }
 
   if (TESTIMONIALS.length) {
     var list = $('tList');
