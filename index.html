@@ -28,6 +28,7 @@
   html { scroll-behavior:smooth; }
   body { margin:0; background:var(--bg); color:var(--ink); font-family:"Heebo","Segoe UI",Arial,sans-serif; line-height:1.65; font-size:18px; }
   .wrap { max-width:640px; margin:0 auto; padding:0 16px; }
+  .t { white-space:nowrap; unicode-bidi:isolate; }
   svg.i { width:26px; height:26px; fill:none; stroke:currentColor; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round; flex:none; }
 
   /* ---------- כותרת ראשית ---------- */
@@ -152,7 +153,7 @@
       <img class="figure" src="assets/natasha.png" alt="נטשה" width="140" height="427">
     </div>
     <div class="pills">
-      <span class="pill"><svg class="i"><use href="#i-sunrise"/></svg>חמישי בבוקר · 10:00-11:00</span>
+      <span class="pill"><svg class="i"><use href="#i-sunrise"/></svg>חמישי בבוקר · <bdi class="t">10:00-11:00</bdi></span>
       <span class="pill"><svg class="i"><use href="#i-users"/></svg>קבוצה קטנה ואינטימית</span>
     </div>
     <a class="btn" href="#join" id="heroCta">מתחשק לך לנסות? לחצי כאן!</a>
@@ -229,7 +230,7 @@
     <div class="card">
       <ul class="facts">
         <li class="key"><svg class="i"><use href="#i-users"/></svg><div><b>קבוצה קטנה ואינטימית:</b> כדי שיהיה מקום לכל אחת.</div></li>
-        <li><svg class="i"><use href="#i-clock"/></svg><div><b>מתי:</b> בימי חמישי בבוקר, 10:00-11:00</div></li>
+        <li><svg class="i"><use href="#i-clock"/></svg><div><b>מתי:</b> בימי חמישי בבוקר, <bdi class="t">10:00-11:00</bdi></div></li>
         <li><svg class="i"><use href="#i-map-pin"/></svg><div><b>איפה:</b> ברחבה במרכז שכניה. את הוראות ההגעה המדויקות אשלח לך אישית.</div></li>
         <li><svg class="i"><use href="#i-shirt"/></svg><div><b>מה ללבוש:</b> בגדים נוחים שנעים לזוז בהם. חצאית רחבה או צעיף מותניים אם יש, ואם אין, אין שום בעיה.</div></li>
       </ul>
@@ -366,7 +367,7 @@
     function ok() {
       form.style.display = 'none';
       $('doneName').textContent = name.split(/\s+/)[0];
-      var msg = 'היי, מצאתי חוג ריקודי בטן בשכניה בימי חמישי בבוקר, 10:00-11:00. אם נבוא יחד, שתינו משלמות 30 ₪ לשיעור. רוצה לבוא? ' + location.origin + location.pathname + '?src=friend';
+      H:00-11:00. אם נבוא יחד, שתינו משלמות 30 ₪ לשיעור. רוצה לבוא? ' + location.origin + location.pathname + '?src=friend';
       $('shareBtn').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
       var d = $('done'); d.style.display = 'block'; d.focus();
     }
