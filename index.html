@@ -10,77 +10,62 @@
 <meta property="og:title" content="הבוקר שלך, בקצב שלך: ריקודי בטן בשכניה">
 <meta property="og:description" content="חמישי בבוקר, 10:00-11:00. בלי צורך בניסיון, קבוצה קטנה ותומכת.">
 <meta property="og:image" content="https://natashashteinberg.github.io/shechania-morning-class/assets/poster.jpg">
-<meta name="theme-color" content="#2b4162">
+<meta name="theme-color" content="#f5e1d6">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --navy:#2b4162; --rose:#df715b; --wine:#8c1818; --gold:#d4af37;
-    --cream:#fffaf5; --ink:#2b2320; --line:#ecdccf; --card:#ffffff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --cream:#1c1715; --ink:#f3ebe6; --line:#3b312c; --card:#261f1c; }
+    color-scheme: light;
+    --bg:#fbf1e8; --blush:#f5e1d6; --pink:#f3d9d6; --card:#fffdfb; --line:#eed9cb;
+    --ink:#3a2c2f; --head:#2b4a55; --berry:#a8365f; --berry-d:#8c2a4e; --gold:#c9a45c;
+    --lace: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23a8365f' stroke-width='1' opacity='.10'%3E%3Crect x='18' y='18' width='36' height='36'/%3E%3Crect x='18' y='18' width='36' height='36' transform='rotate(45 36 36)'/%3E%3Ccircle cx='36' cy='36' r='6'/%3E%3C/g%3E%3C/svg%3E");
   }
   * { box-sizing:border-box; }
   html { scroll-behavior:smooth; }
-  body { margin:0; background:var(--cream); color:var(--ink); font-family:"Heebo","Segoe UI",Arial,sans-serif; line-height:1.65; font-size:18px; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:"Heebo","Segoe UI",Arial,sans-serif; line-height:1.65; font-size:18px; }
   .wrap { max-width:640px; margin:0 auto; padding:0 16px; }
-  header.hero { background:var(--navy); color:#fff; padding:28px 0 36px; text-align:center; }
-  .badge { display:inline-block; background:var(--gold); color:#2b2320; font-weight:700; font-size:.85rem; padding:4px 14px; border-radius:99px; margin-bottom:14px; }
-  h1 { font-size:2rem; line-height:1.2; margin:0 0 10px; font-weight:800; }
-  .sub { font-size:1.1rem; margin:0 auto 20px; max-width:30em; opacity:.95; }
-  .btn { display:inline-block; background:var(--rose); color:#fff; text-decoration:none; font-weight:700; font-size:1.15rem; border:0; border-radius:12px; padding:14px 28px; cursor:pointer; font-family:inherit; }
-  .btn:hover, .btn:focus-visible { background:var(--wine); }
-  .btn.wa { background:#1f8f4e; }
-  .btn.wa:hover, .btn.wa:focus-visible { background:#176f3d; }
+  header.hero { background-color:var(--blush); background-image:linear-gradient(rgba(251,241,232,.55), rgba(251,241,232,.95)), var(--lace); background-size:auto, 72px 72px; color:var(--ink); padding:20px 0 42px; text-align:center; }
+  .logo { display:block; width:150px; height:auto; margin:0 auto 6px; }
+  .badge { display:inline-block; background:var(--pink); color:var(--berry-d); font-weight:500; font-size:.92rem; padding:5px 16px; border-radius:99px; margin-bottom:14px; }
+  h1 { color:var(--head); font-size:2.05rem; line-height:1.2; margin:0 0 10px; font-weight:700; }
+  .sub { font-size:1.08rem; margin:0 auto 22px; max-width:28em; }
+  .btn { display:inline-block; background:var(--berry); color:#fff; text-decoration:none; font-weight:500; font-size:1.1rem; border:0; border-radius:99px; padding:13px 30px; cursor:pointer; font-family:inherit; }
+  .btn:hover, .btn:focus-visible { background:var(--berry-d); }
+  .btn.wa { background:#4c8a67; }
+  .btn.wa:hover, .btn.wa:focus-visible { background:#3d7254; }
   .btn:focus-visible, input:focus-visible, select:focus-visible { outline:3px solid var(--gold); outline-offset:2px; }
-  .video { margin:-18px auto 0; max-width:480px; border-radius:16px; overflow:hidden; border:4px solid var(--card); box-shadow:0 8px 24px rgba(0,0,0,.2); background:#000; }
+  .video { margin:-22px auto 0; max-width:480px; border-radius:18px; overflow:hidden; border:5px solid var(--card); box-shadow:0 6px 20px rgba(90,50,50,.14); background:#000; }
   .video video { display:block; width:100%; height:auto; aspect-ratio:1/1; }
-  section { padding:28px 0 4px; }
-  h2 { color:var(--navy); font-size:1.4rem; margin:0 0 12px; }
-  @media (prefers-color-scheme: dark) { h2 { color:var(--gold); } }
+  section { padding:26px 0 2px; }
+  h2 { color:var(--head); font-size:1.35rem; margin:0 0 12px; font-weight:700; }
   .grid { display:grid; gap:12px; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 16px; }
-  .card strong { display:block; color:var(--wine); font-size:1.05rem; }
-  @media (prefers-color-scheme: dark) { .card strong { color:var(--rose); } }
-  .offer { border:2px solid var(--gold); }
-  .price { font-size:1.6rem; font-weight:800; color:var(--wine); }
-  @media (prefers-color-scheme: dark) { .price { color:var(--rose); } }
-  .spots { background:var(--rose); color:#fff; border-radius:12px; padding:10px 14px; font-weight:700; text-align:center; margin-top:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:14px 18px; }
+  .card strong { display:block; color:var(--berry-d); font-size:1.05rem; font-weight:700; }
+  .offer { background:var(--blush); }
   ul.facts { list-style:none; margin:0; padding:0; }
-  ul.facts li { padding:8px 0; border-bottom:1px solid var(--line); }
+  ul.facts li { padding:9px 0; border-bottom:1px solid var(--line); }
   ul.facts li:last-child { border-bottom:0; }
-  ul.facts b { color:var(--wine); }
-  @media (prefers-color-scheme: dark) { ul.facts b { color:var(--rose); } }
+  ul.facts b { color:var(--berry-d); font-weight:700; }
+  .spots { background:var(--pink); color:var(--berry-d); border-radius:99px; padding:10px 16px; font-weight:500; text-align:center; margin-top:14px; }
   blockquote { margin:0; }
   blockquote p { margin:0 0 6px; }
   blockquote cite { font-style:normal; font-size:.9rem; opacity:.8; }
-  form { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 16px 20px; }
+  form { background-color:var(--card); background-image:linear-gradient(rgba(255,253,251,.88), rgba(255,253,251,.96)), var(--lace); background-size:auto, 72px 72px; border:1px solid var(--line); border-radius:18px; padding:18px 16px 22px; }
   label { display:block; font-weight:500; margin:12px 0 4px; }
-  input[type=text], input[type=tel], select { width:100%; font:inherit; font-size:1rem; padding:12px; border:1px solid var(--line); border-radius:10px; background:var(--cream); color:var(--ink); }
+  input[type=text], input[type=tel], select { width:100%; font:inherit; font-size:1rem; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:#fff; color:var(--ink); }
   .consent { display:flex; gap:10px; align-items:flex-start; margin:16px 0; font-size:.92rem; }
-  .consent input { margin-top:5px; width:20px; height:20px; flex:none; }
+  .consent input { margin-top:5px; width:20px; height:20px; flex:none; accent-color:var(--berry); }
   .hp { position:absolute; inset-inline-start:-9999px; width:1px; height:1px; overflow:hidden; }
-  .err { color:#b3261e; font-size:.9rem; min-height:1.2em; margin-top:6px; }
-  @media (prefers-color-scheme: dark) { .err { color:#ff8a80; } }
+  .err { color:#a3261e; font-size:.9rem; min-height:1.2em; margin-top:6px; }
   .done { text-align:center; display:none; }
   .done h2 { margin-top:0; }
   .alt { text-align:center; margin:18px 0 0; font-size:.95rem; }
-  footer { text-align:center; padding:28px 16px 40px; font-size:.85rem; opacity:.75; }
-  .sticky { position:fixed; bottom:0; inset-inline:0; padding:10px 16px calc(10px + env(safe-area-inset-bottom)); background:var(--navy); z-index:5; text-align:center; transform:translateY(110%); transition:transform .25s; }
+  .alt a { color:var(--berry-d); }
+  footer { text-align:center; padding:28px 16px 90px; font-size:.85rem; color:#7a6a6a; }
+  .sticky { position:fixed; bottom:0; inset-inline:0; padding:10px 16px calc(10px + env(safe-area-inset-bottom)); background:rgba(251,241,232,.96); border-top:1px solid var(--line); z-index:5; text-align:center; transform:translateY(110%); transition:transform .25s; }
   .sticky.show { transform:none; }
   .sticky .btn { width:100%; max-width:640px; }
-
-  :root {
-    --pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23d4af37' stroke-width='1'%3E%3Crect x='16' y='16' width='32' height='32'/%3E%3Crect x='16' y='16' width='32' height='32' transform='rotate(45 32 32)'/%3E%3Ccircle cx='32' cy='32' r='5'/%3E%3C/g%3E%3C/svg%3E");
-    --arch: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'%3E%3Cpath fill='none' stroke='%23d4af37' stroke-width='28' d='M400,268.75V500H0V268.75C0,177.43,96.88,144.1,96.88,144.1c-23.62-61.11,6.59-81.6,42.36-97.92C175,29.86,200,0,200,0s25,29.86,60.77,46.18c35.76,16.32,65.97,36.81,42.36,97.92C303.13,144.1,400,177.43,400,268.75z'/%3E%3C/svg%3E");
-  }
-  header.hero { background-image: linear-gradient(rgba(43,65,98,.90), rgba(43,65,98,.96)), var(--pattern); background-size:auto, 64px 64px; }
-  h2::before { content:""; display:block; width:22px; height:28px; margin:0 0 6px; background:var(--arch) center/contain no-repeat; }
-  form { background-image: linear-gradient(rgba(255,255,255,.93), rgba(255,255,255,.97)), var(--pattern); background-size:auto, 64px 64px; }
-  @media (prefers-color-scheme: dark) { form { background-image: linear-gradient(rgba(38,31,28,.94), rgba(38,31,28,.98)), var(--pattern); } }
-  .sub b { color:var(--gold); }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } .sticky { transition:none; } }
 </style>
 </head>
@@ -88,6 +73,7 @@
 
 <header class="hero">
   <div class="wrap">
+    <img class="logo" src="assets/logo.png" alt="סטודיו עאישה, סטודיו לריקודי בטן" width="150" height="84">
     <span class="badge">חמישי בבוקר · 10:00-11:00</span>
     <h1>הבוקר שלך, בקצב שלך</h1>
     <p class="sub">חוג ריקודי בטן עם נטשה בלב שכניה. שעה של תנועה ושמחה כשהיום עוד לפנייך. <b>בלי צורך בניסיון</b>, לכל הגילאים והגופים.</p>
@@ -102,8 +88,7 @@
     </video>
   </div>
 
-  <section aria-labelledby="whyH">
-    <h2 id="whyH">למה דווקא בבוקר</h2>
+  <section aria-label="יתרונות החוג">
     <div class="grid">
       <div class="card"><strong>שעה שהיא רק שלך</strong>אחרי שהבית התארגן ולפני שהיום מתחיל לרוץ. בלי עייפות של סוף יום, בלי למהר לשום מקום.</div>
       <div class="card"><strong>מתחילות את סוף השבוע בתנועה</strong>חמישי בבוקר הוא הזמן להיכנס לשבת עם גוף נינוח, מצב רוח טוב וחיוך.</div>
