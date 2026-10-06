@@ -53,11 +53,12 @@
   .video { margin:-54px auto 0; max-width:480px; border-radius:22px; overflow:hidden; border:5px solid #fff; box-shadow:0 10px 26px rgba(80,40,80,.25); background:#000; position:relative; z-index:2; }
   .video video { display:block; width:100%; height:auto; aspect-ratio:1/1; }
 
-  .hero-body { display:grid; grid-template-columns:1fr 138px; gap:6px; align-items:end; margin:4px 0 14px; text-align:start; }
+  .hero-body { display:grid; grid-template-columns:138px 1fr; gap:10px; align-items:center; margin:4px 0 16px; text-align:start; }
+  .hero-text .pills { flex-direction:column; align-items:flex-start; gap:8px; margin:14px 0 0; }
   .hero-text .sub { margin:0 0 10px; max-width:none; font-size:1.05rem; }
   .hero-text .sub.first { font-size:1.15rem; }
-  .figure { display:block; width:138px; height:auto; margin-bottom:-6px; filter:drop-shadow(0 8px 10px rgba(80,40,60,.25)); }
-  @media (min-width:520px) { .hero-body { grid-template-columns:1fr 200px; } .figure { width:200px; } .hero-text .sub { font-size:1.15rem; } .hero-text .sub.first { font-size:1.3rem; } }
+  .figure { display:block; width:138px; height:auto; filter:drop-shadow(0 8px 10px rgba(80,40,60,.25)); }
+  @media (min-width:520px) { .hero-body { grid-template-columns:200px 1fr; } .figure { width:200px; } .hero-text .sub { font-size:1.15rem; } .hero-text .sub.first { font-size:1.3rem; } }
 
   /* ---------- אזורים וכותרות ---------- */
   section { padding:34px 0 8px; }
@@ -146,15 +147,15 @@
     <div><span class="new"><svg class="i"><use href="#i-sparkles"/></svg>חדש</span></div>
     <h1>ריקודי בטן בשכניה</h1>
     <div class="hero-body">
+      <img class="figure" src="assets/natasha.png" alt="נטשה" width="140" height="427">
       <div class="hero-text">
         <p class="sub first">מזמינה אותך להתחיל את יום חמישי עם ריקוד, מוזיקה, שמחה ואנרגיות טובות.</p>
         <p class="sub">ריקודי בטן מתאימים לכל אישה, בכל גיל ומשקל.<br>לא צריך ניסיון בריקוד - <span class="big">תבואי בדיוק כמו שאת!</span></p>
+        <div class="pills">
+          <span class="pill"><svg class="i"><use href="#i-sunrise"/></svg>חמישי בבוקר · <bdi class="t">10:00-11:00</bdi></span>
+          <span class="pill"><svg class="i"><use href="#i-users"/></svg>קבוצה קטנה ואינטימית</span>
+        </div>
       </div>
-      <img class="figure" src="assets/natasha.png" alt="נטשה" width="140" height="427">
-    </div>
-    <div class="pills">
-      <span class="pill"><svg class="i"><use href="#i-sunrise"/></svg>חמישי בבוקר · <bdi class="t">10:00-11:00</bdi></span>
-      <span class="pill"><svg class="i"><use href="#i-users"/></svg>קבוצה קטנה ואינטימית</span>
     </div>
     <a class="btn" href="#join" id="heroCta">מתחשק לך לנסות? לחצי כאן!</a>
   </div>
